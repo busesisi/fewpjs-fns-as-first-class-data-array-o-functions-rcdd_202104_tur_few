@@ -28,13 +28,23 @@ let routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog
 
 
 function exerciseDog (dogName, dogBreed) {
+<<<<<<< HEAD
 let message = [];
+=======
+
+>>>>>>> b55a7618fb392c57ccc433ab3ecaf82b0cf451a1
 for (let i = 0; i < routine.length; i++) {
 
     //routine[i]();
     //return routine[i];
+<<<<<<< HEAD
     message.push(routine[i](dogName,dogBreed));
 
 }
 return message;
+=======
+    routine[i](dogName,dogBreed);
+
+}
+>>>>>>> b55a7618fb392c57ccc433ab3ecaf82b0cf451a1
 }
